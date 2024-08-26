@@ -120,7 +120,6 @@ while running:
     ###########################
     cur_pos = pygame.Vector2(rocket.pos.x, rocket.pos.y)
     poses.append(cur_pos)
-    time.sleep(5)
     for pos in poses:
         pygame.draw.circle(screen, "blue", pos, 3)
 
